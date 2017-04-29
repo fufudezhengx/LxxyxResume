@@ -9,7 +9,7 @@ var fs = require('fs')
 var connect = require('gulp-connect')
 
 gulp.task('resume-sass', function () {
-  gulp.src('src/css/resume.scss')
+  gulp.src('src/scss/resume.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer({
       browsers: ['last 4 versions'],
@@ -20,7 +20,7 @@ gulp.task('resume-sass', function () {
 })
 
 gulp.task('icon-sass', function () {
-  gulp.src('src/css/iconfont.scss')
+  gulp.src('src/scss/iconfont.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer({
       browsers: ['last 4 versions'],
@@ -30,9 +30,9 @@ gulp.task('icon-sass', function () {
 })
 
 gulp.task('sass:watch', function () {
-  gulp.watch('./src/css/resume.scss', ['resume-sass'])
-  gulp.watch('./src/css/iconfont.scss', ['icon-sass'])
-  gulp.watch('./src/css/components/*.scss', ['resume-sass'])
+  gulp.watch('./src/scss/resume.scss', ['resume-sass'])
+  gulp.watch('./src/scss/iconfont.scss', ['icon-sass'])
+  gulp.watch('./src/scss/components/*.scss', ['resume-sass'])
 })
 
 gulp.task('json2jade', function () {
