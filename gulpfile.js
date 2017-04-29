@@ -27,6 +27,7 @@ gulp.task('icon-sass', function () {
       cascade: false
     }))
     .pipe(gulp.dest('dist/iconfont/'))
+    .pipe(connect.reload())
 })
 
 gulp.task('sass:watch', function () {
@@ -88,6 +89,6 @@ gulp.task('webserver', function () {
     })
 })
 
-gulp.task('dev', ['icon-sass', 'resume-sass', 'json2jade', 'copy', 'json2jade:watch', 'sass:watch', 'webserver'])
+gulp.task('dev', ['default', 'json2jade:watch', 'sass:watch', 'webserver'])
 
 gulp.task('default', ['icon-sass', 'resume-sass', 'json2jade', 'copy'])
