@@ -22,7 +22,7 @@
   "header": {
     "title": {
       "name": "刘子健",
-      "job": "前端开发实习生（已找到）"
+      "job": "前端开发实习生"
     },
     "contacts": {
       "phone": "15579185518",
@@ -64,9 +64,22 @@
     ]
   },
   "experience": [{
+      "title": {
+        "place": "淘宝前端团队（FED）",
+        "time": "2017.06-至今"
+      },
+      "content": {
+        "position": " Web 前端实习生",
+        "tasks": [
+          "使用 Weex/Rax 开发部分线上页面",
+          "使用 React 开发部分后台管理系统"
+        ]
+      }
+    },
+    {
     "title": {
       "place": "家园工作室",
-      "time": "2015.3-至今"
+      "time": "2015.3-2017.06"
     },
     "content": {
       "position": "前端开发",
@@ -79,7 +92,7 @@
     }
   }, {
     "title": {
-      "place": "百度",
+      "place": "百度企业产品用户体验中心",
       "time": "2016.10-2017.2"
     },
     "content": {
@@ -108,7 +121,7 @@
       "place": "南大家园-iNCU",
       "time": "2017.01-至今",
       "links": [{
-        "name": "Download",
+        "name": "下载链接",
         "href": "http://incu.ncuos.com/"
       }]
     },
@@ -161,7 +174,7 @@
         "name": "前端工程化实践",
         "description": [
           "日常使用 `TypeScript` 完成前后端项目",
-          "熟练使用 `Vue` ，完成单页和常见应用的编写",
+          "熟练使用 `React/Vue` ，完成单页和常见应用的编写",
           "熟练使用 `React Native` 开发 App ,对 `Weex` 等项目保持关注中",
           "熟悉 jQuery/Bootstrap 等常见框架类库的使用",
           "熟练使用 `Gulp , Webpack , Rollup` 等代码构建工具"
@@ -193,7 +206,7 @@
         "name": "`计算机基础`",
         "description": [
           "计算机基础较好，`对计算机与编程有极大热情，自学能力较强`",
-          "在校选课与 MOOC 自学《计算机科学导论》，《计算机网络》，《操作系统》等课程",
+          "在校选课与 MOOC 自学《计算机科学导论》，《计算机网络》等课程",
           "自学`数据结构与算法`，用 JavaScript 实现并归纳总结 -- <a href=\"http://t.cn/R4Ybrs0\">总结地址</a>",
           "`坚持写原创技术博客，月浏览量3k`，在 Github 有自己的开源项目"
         ]
