@@ -5,7 +5,7 @@
     "PDF使用chrome浏览器的保存为PDF即可,放置于src/pdf文件夹。",
     "PDF的地址，将这个文件里pdf部分改为你的PDF文件名即可"
   ],
-  "title": "刘子健 - 个人简历",
+  "title": "刘子健 - 前端工程师",
   "aside": [{
     "href": "https://github.com/Lxxyx/LxxyxResume",
     "content": "源代码"
@@ -22,7 +22,7 @@
   "header": {
     "title": {
       "name": "刘子健",
-      "job": "前端开发实习生"
+      "job": "前端工程师"
     },
     "contacts": {
       "phone": "15579185518",
