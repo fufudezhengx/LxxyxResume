@@ -7,6 +7,7 @@ var rimrafPromise = require('rimraf-promise')
 var ghPages = require('gulp-gh-pages')
 var fs = require('fs')
 var connect = require('gulp-connect')
+var generatePdf = require('./generate_pdf')
 
 gulp.task('resume-sass', function () {
   gulp.src('src/scss/resume.scss')
@@ -73,22 +74,28 @@ gulp.task('clean', () => {
   rimrafPromise('./dist/')
 })
 
-gulp.task('deploy', function () {
+gulp.task('deploy', ['pdf'], function () {
   return gulp.src('./dist/**/*')
-  .pipe(ghPages({
-    remoteUrl: 'git@github.com:Lxxyx/lxxyx.github.io.git',
-    branch: 'master'
-  }))
+    .pipe(ghPages({
+      remoteUrl: 'git@github.com:Lxxyx/lxxyx.github.io.git',
+      branch: 'master'
+    }))
 })
 
 gulp.task('webserver', function () {
-    connect.server({
-        root: './dist',
-        livereload: true,
-        port:9000
-    })
+  connect.server({
+    root: './dist',
+    livereload: true,
+    port: 9000
+  })
 })
 
 gulp.task('dev', ['default', 'json2jade:watch', 'sass:watch', 'webserver'])
 
 gulp.task('default', ['icon-sass', 'resume-sass', 'json2jade', 'copy'])
+
+gulp.task('pdf', ['default', 'webserver'], async () => {
+  await generatePdf('http://localhost:9000')
+  connect.serverClose()
+  process.exit(0)
+})
