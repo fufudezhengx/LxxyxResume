@@ -5,6 +5,10 @@
 简历基于Gulp+Scss+Jade。  
 访问地址：[Lxxyx的简历](https://lxxyx.github.io)
 
+### 要求
+
+**Node 7.10及以上**
+
 ### 特点
 
 自动生成PDF版简历
