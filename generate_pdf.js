@@ -12,4 +12,3 @@ module.exports = async function generatePdf (url) {
   console.log('PDF生成')
   browser.close()
 }
-
