@@ -74,7 +74,7 @@ gulp.task('clean', () => {
   rimrafPromise('./dist/')
 })
 
-gulp.task('deploy', ['pdf'], function () {
+gulp.task('deploy', function () {
   return gulp.src('./dist/**/*')
     .pipe(ghPages({
       remoteUrl: 'git@github.com:Lxxyx/lxxyx.github.io.git',
