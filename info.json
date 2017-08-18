@@ -147,7 +147,7 @@
       "position": "Node.js",
       "tasks": [
         "基于 `Koa2`，从自身需求出发，加速开发",
-        "默认支持 `CORS跨域，Gzip ,文件上传`等功能，",
+        "默认支持 `CORS跨域，Gzip，文件上传`等功能，",
         "编写模板中间件 `Koa-ArtTemplate` 与脚手架，支持生成 TypeScript 模板，上手即用"
       ]
     }
@@ -188,8 +188,8 @@
         "description": [
           "使用 `TypeScript + Koa2/Express` 等框架搭建后端服务",
           "`使用 Node.js 开发命令行/爬虫程序`，并发布至 NPM ",
-          "能配合 MongoDB 开发简单的 CRUD 应用",
-          "使用 ` Mocha/Jest/Ava `编写单元测试 并通过 `Travis.ci/CodeCov` 实现项目持续集成"
+          "能配合 MongoDB 开发 CRUD 应用",
+          "使用 ` Jest/Mocha/Ava `编写单元测试 并通过 CI 实现项目持续集成"
         ]
       }, {
         "name": "其它知识",
@@ -215,7 +215,7 @@
         "description": [
           "`一年 Linux 使用经验`，使用 MacOS 作为日常系统",
           "熟练使用 Git 等代码管理与团队协作工具，`使用 Gitflow 开发项目`并尝试在团队内推广使用",
-          "日常使用 ` VSCode / Sublime Text ` 进行开发"
+          "日常使用 ` VSCode / Webstorm` 进行开发"
         ]
       }]
     }
