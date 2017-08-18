@@ -167,7 +167,7 @@
         "description": [
           "熟悉 JavaScript ，`代码编写遵守规范`",
           "了解` JavaScript 面向对象知识`与 `MV*` 模式",
-          "学习 ES6/7 规范，不断实践并在新项目中应用，`熟练使用 ES6 开发项目 `",
+          "学习 ECMAScript 规范，不断实践并在新项目中应用，`熟练使用 ES6/7 开发项目 `",
           "熟悉 JavaScript 异步编程，`掌握常见的异步解决方案`"
         ]
       }, {
@@ -175,7 +175,7 @@
         "description": [
           "日常使用 `TypeScript` 完成前后端项目",
           "熟练使用 `React/Vue` ，完成单页和常见应用的编写",
-          "熟练使用 `React Native` 开发 App ,对 `Weex` 等项目保持关注中",
+          "熟练使用 `React Native/Weex` 开发 App",
           "熟悉 jQuery/Bootstrap 等常见框架类库的使用",
           "熟练使用 `Gulp , Webpack , Rollup` 等代码构建工具"
         ]
@@ -186,7 +186,7 @@
       "skill": [{
         "name": "`Node.js`",
         "description": [
-          "使用 `TypeScript + Express/Koa2` 等框架搭建后端服务",
+          "使用 `TypeScript + Koa2/Express` 等框架搭建后端服务",
           "`使用 Node.js 开发命令行/爬虫程序`，并发布至 NPM ",
           "能配合 MongoDB 开发简单的 CRUD 应用",
           "使用 ` Mocha/Jest/Ava `编写单元测试 并通过 `Travis.ci/CodeCov` 实现项目持续集成"
